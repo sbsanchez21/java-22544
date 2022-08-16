@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer form</title>
+</head>
+<body>
+    <h4 style="text-align: center; color: red; ">Mi primer formulario</h4>
+
+    <!-- <form action="https://aulasvirtuales.bue.edu.ar/course/view.php?id=9289" method="get"> -->
+    <form action="clientes/procesarPedido.html" method="get">
+        <br>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+
+        <br><br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido">
+
+        <br><br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="pass" id="pass">
+
+
+        <br><br>
+        <label for="dni">DNI: </label>
+        <input type="number" name="dni" id="dni">
+
+        <br><br>
+        <label for="fechaNac">Fecha Nacimiento: </label>
+        <input type="date" name="fechaNac" id="fechaNac">
+
+        <br><br>
+        <label for="observ">Observaciones: </label>
+        <br>
+        <textarea name="observ" id="observ" cols="50" rows="4"></textarea>
+
+        <br><br>
+        <!-- <label for="provincia">Seleccione una provincia: </label> -->
+        <br>
+        <select name="provincia" id="">
+            <option aria-placeholder="" default hidden>--Seleccione una provincia--</option>
+            <option value="1">Buenos Aires</option>
+            <option value="2">Mendoza</option>
+            <option value="3">Córdoba</option>
+            <option value="4">San Luis</option>
+        </select>
+
+        <br><br>
+        <label for="mes">Seleccione el mes:</label>
+        <br><br>
+        <input type="radio" name="mes" id="" value="1">Enero
+        <br>
+        <input type="radio" name="mes" id="" value="2">Febrero
+        <br>
+        <input type="radio" name="mes" id="" value="3">Marzo
+        <br>
+        <input type="radio" name="mes" id="" value="4">Abril
+        <br>
+        <input type="radio" name="mes" id="" value="5">Mayo
+        
+        <br><br>
+        <label for="mascota">Selecciona las mascotas:</label>
+        <br><br>
+        <input type="checkbox" name="mascota1" id="" value="1">Perro
+        <br>
+        <input type="checkbox" name="mascota2" id="" value="2">Gato
+        <br>
+        <input type="checkbox" name="mascota3" id="" value="3">Vibora
+
+        <br>
+        <input type="file" name="" id="">
+        <input type="week" name="" id="">
+        <input type="email" name="" id="" required>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+    </form>
+    
+</body>
+</html>
