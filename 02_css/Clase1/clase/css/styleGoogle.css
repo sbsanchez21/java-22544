@@ -1,0 +1,35 @@
+.textoMenu {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1rem;
+}
+
+.textoMenu > img {
+    width: 40px;
+    height: 40px;
+}
+
+.textoMenu > a {
+    text-decoration: none;
+    color: black;
+}
+
+.logoGoogle {
+    text-align: center;
+}
+
+.logoGoogle > img {
+    width: 200px;
+}
+
+.inputGoogle {
+    text-align: center;
+}
+
+.inputGoogle > input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}

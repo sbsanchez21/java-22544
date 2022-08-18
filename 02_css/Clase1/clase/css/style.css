@@ -1,0 +1,57 @@
+a {
+    background-color: red;
+    color: aqua !important;
+}
+
+input {
+    background-color: lightcoral;
+    font-size: 2rem;
+    color: blue;
+}
+
+div {
+    text-align: center;
+    background-color: lightseagreen;
+    font-size: 1.5rem;
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: brown;
+}
+
+.textoTitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 50%;
+}
+
+.textoSubtitulo {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: lightgrey;
+
+}
+
+#anuncio {
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 1rem;
+    width: 100px;
+}
+
+#alerta {
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 1rem;
+    width: 100px;
+}

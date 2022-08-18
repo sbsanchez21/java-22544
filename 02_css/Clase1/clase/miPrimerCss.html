@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        p {
+            background-color: lightblue;
+            border: 1px solid;
+        }
+
+        a {
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+    <div>hola css</div>
+
+    <!-- style inline -->
+    <div style="background-color: red;">hola css</div>
+
+    <!-- style head -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque iusto incidunt, quaerat pariatur facilis?</p>
+
+    <!-- style externo -->
+    <br>
+    <a href="">Link a google</a>
+    <br>
+    <input type="text">
+    <br>
+    <a href="" style="background-color: blue ; color:white">Link a facebook</a>
+
+    <!-- jerarquía style -->
+    <br>
+    <a href="">Link rojo style externo</a>
+    <br>
+    <a href="">Link texto verde style head</a>
+    <br>
+    <a href="" style="background-color: yellow ; color: red">Link son style inline</a>
+
+    <!-- style deprecados -->
+    <p align="center" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, officia sapiente. Quam earum et at.</p>
+
+
+    <!-- tipos de selectores -->
+    <!-- selector de etiqueta -->
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos voluptate tempore ea a nesciunt veritatis, quae cum vitae. Ullam ab veniam hic nemo eaque quam optio repellat! Iste, quasi ab!</div>
+    <br>
+    <div>hola mundo</div>
+    <br>
+    <div>chau html</div>
+    <ul>
+        <li>Cliente 1</li>
+        <li>Cliente 2</li>
+        <li>Cliente 3</li>
+        <li>Cliente 4</li>
+    </ul>
+
+    <ul>
+        <li>Alumno 1</li>
+        <li>Alumno 2</li>
+        <li>Alumno 3</li>
+        <li>Alumno 4</li>
+    </ul>
+
+    <!-- selector de clase -->
+    <div class="textoTitulo">Titulo 1</div>
+
+    <p class="textoTitulo">titulo 2</p>
+
+    <span class="textoTitulo">titulo 3</span>
+
+    <br>
+    <div class="textoSubtitulo">subtitulo</div>
+    <div class="textoSubtitulo">subtitulo</div>
+    <div class="textoSubtitulo">subtitulo</div>
+
+    <!-- selector id -->
+    <div id="anuncio">Anuncio 1</div>
+    <!-- mala práctica, el id pisa a class -->
+    <div class="textoTitulo" id="alerta">prueba css id</div>
+
+</body>
+</html>
