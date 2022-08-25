@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+}
+
+.caja {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: black;
+  color: orange;
+}
+
+#posAbsoluto {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: green;
+  z-index: 2;
+}

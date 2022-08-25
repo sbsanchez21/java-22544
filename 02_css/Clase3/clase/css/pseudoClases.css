@@ -1,0 +1,32 @@
+p:hover {
+    background-color:red;
+}
+
+div:hover {
+    background-color: blue;
+}
+
+li:last-child {
+    background-color:red;
+}
+
+li:first-child {
+    background-color:green;
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+li:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}

@@ -1,0 +1,64 @@
+html {
+    font-size: 16px; /*valor por defecto del root html es 16px*/
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    color: #3c4043;
+}
+
+.textoMenu {
+    text-align: right;
+    color: black;
+    padding: 1rem;
+    /* font-size: 24px; */
+}
+
+.textoMenu > img {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 0 .5rem 0 .5rem;
+}
+
+.textoMenu a {
+    text-decoration: none;
+    color: black;
+    margin: .3rem;
+    /* font-size: 1em; */
+}
+
+.logoGoogle > img {
+    width: 280px;
+    margin: 1rem;
+}
+
+.inputGoogle > input {
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.inputGoogle > input:hover {
+    box-shadow: 3px 3px 7px lightgray;
+}
+
+.botones > input {
+    margin: 1.5rem .3rem 1.5rem .3rem;
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    border: 0;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer ;
+}
+
+.botones > input:hover {
+    border: 1px solid lightgray;
+}
+
+.ofrecido {
+    margin: 1rem;
+}
