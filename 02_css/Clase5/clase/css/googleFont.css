@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Qwitcher+Grypen:wght@400;700&family=Roboto:wght@300&display=swap');
+
+.texto {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.textoCali{
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.textoRoboto {
+    font-family: 'Roboto', sans-serif;  
+}

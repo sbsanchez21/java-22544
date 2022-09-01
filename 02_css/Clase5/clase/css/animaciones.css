@@ -1,0 +1,41 @@
+.cajaAnimada {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    text-align: center;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+    --animate-repeat: 2;    
+}
+
+.cajaAnimada2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    text-align: center;
+}
+
+.cajaAnimada2:hover {
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+    --animate-repeat: 2;    
+
+}
+
+.botonAnimado {
+    background-color: lightgray;
+    border: 0;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.botonAnimado:hover {
+    background-color: gray;
+    cursor: pointer;
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    --animate-delay: 0.9s;
+    --animate-repeat: 2;    
+} 

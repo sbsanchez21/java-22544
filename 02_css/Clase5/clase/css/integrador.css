@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+}
+
+.orador {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+    margin: 1rem;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.orador > img {
+    width: 100%;
+}
+
+.botones > input {
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: .2rem .4rem .2rem .4rem;
+}
+
+.botones > input:hover {
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    --animate-repeat: 2;    
+}
+
+.btnAmarillo {
+    background-color: rgb(254, 193, 6);
+    margin-right: .2rem;
+}
+
+
+.btnCeleste {
+    background-color: rgb(23, 162, 185);
+    color: white;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.textoOrador {
+    margin: 1.2rem;
+}
+
+/* texto ayuda */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
