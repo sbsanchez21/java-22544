@@ -1,0 +1,12 @@
+body {
+    background-color: lightcoral;
+}
+
+.texto {
+    font-size: 1rem;
+}
+
+.tabla {
+    width: 600px;
+    border: 1px solid black;
+}

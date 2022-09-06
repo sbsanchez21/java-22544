@@ -1,0 +1,45 @@
+/* ancho de pc */
+@media only screen and (max-width:1500px) {
+    body {
+       background-color: lightblue; 
+    }
+    
+    .texto {
+        font-size: 1.5rem;
+    }
+
+    .tabla {
+        width: 1000px;
+        border: 1px solid black;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    .tabla {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: lightcyan;
+    }
+
+    .texto {
+        font-size: .8rem;
+    }
+
+    .tabla {
+        width: 300px;
+    }
+}
