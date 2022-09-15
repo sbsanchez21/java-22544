@@ -1,0 +1,20 @@
+- instalar git 
+- crear cuenta en github
+- crear carpeta y programar el integrador, crear archivo index.html en raíz
+- terminal -> new terminal
+- git init //iniciliza el proyecto git
+- git add .  //sube todos los archivos al stage area
+- git commit -m 'algun comentario' //sube los archivos del stage area al repo local
+- crear repositorio en github //
+- git remote add origin https://github.com/sbsanchez21/integrador22544.git  //vincula mi repo local con el repo remoto de github
+- git push -u origin master  //sube los archivos desde el repo local al repo github
+
+modique o agregue archivos
+- git add .  //sube todos los archivos al stage area
+- git commit -m 'algun comentario' //sube los archivos del stage area al repo local
+- git push -u origin master  //sube los archivos desde el repo local al repo github
+
+
+Publicar págiona
+- verificar si existe index.html en la raíz
+- settings->page -> branch master click save
