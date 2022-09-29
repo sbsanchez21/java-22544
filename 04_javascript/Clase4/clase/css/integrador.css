@@ -1,0 +1,14 @@
+/* tamaño por defecto */
+/* html {
+    font-size: 16px;
+} */
+
+body {
+    font-size: 1rem;
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 12px;
+    }
+}
