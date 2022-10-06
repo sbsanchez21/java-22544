@@ -1,0 +1,15 @@
+.caja {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background: red;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+#posStatic {
+  position: static;
+  top: 5px;
+  left: 5px;
+  background: blue;
+}
