@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.menuArriba {
+    background: #fff;
+}
+
+.cajaBlanca {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    /* background: #ddd; */
+    font-size: .9rem;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: .2rem;
+    /* vertical-align: text-bottom; */
+}
+
+.cajaBlanca:hover {
+    background-color: green;
+}
+
+.menuAbajo {
+    background-color: #000;
+    position: sticky;
+    top: 0px;
+}
+
+.cajaNegra {
+    display: inline-block;
+    /* background: #000; */
+    color: white;
+    padding: .5rem;
+    font-size: .8rem;
+    font-weight: bolder;
+    margin: -5;
+    border: 0;
+    text-decoration: none;
+    border: 0;
+}

@@ -1,0 +1,25 @@
+p::first-line {
+    background-color: red;
+}
+
+p::first-letter {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4::before {
+    content: "Leer esto";
+    font-size: 2rem;
+    background-color: red;
+}
+
+h5::after {
+    content: "Autor G.L. Borges";
+    color: green;
+}
+
+p::selection {
+    background-color: yellow;
+    color: red;
+
+}

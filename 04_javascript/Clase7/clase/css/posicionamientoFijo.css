@@ -1,0 +1,15 @@
+.caja {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: gold;
+}
+
+#posFixed {
+  position: fixed;
+  top: 250px;
+  left: 200px;
+  background: black;
+}
+

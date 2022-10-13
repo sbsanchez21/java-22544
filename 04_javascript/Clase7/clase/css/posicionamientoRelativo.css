@@ -1,0 +1,16 @@
+.caja {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: gold;
+}
+
+#posRelative {
+  position: relative;
+  top: 50px;
+  left: 60px;
+  background: blue;
+  z-index: -1;
+}
+

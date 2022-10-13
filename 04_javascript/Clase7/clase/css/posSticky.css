@@ -1,0 +1,9 @@
+.sticky {
+    position: -webkit-sticky; /* se pone para que el Navegador Safari entienda el pos sticky*/
+    position: sticky;
+    top: 0px;
+    /* left: 200px; */
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid ;
+}
