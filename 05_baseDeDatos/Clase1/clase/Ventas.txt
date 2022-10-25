@@ -1,0 +1,5 @@
+1||10||Licuadora||80000
+2||1||Aspiradora||150000
+3||311||Aspiradora||60000
+4||11||Aspiradora||10000
+5||123||Aspiradora||5000
