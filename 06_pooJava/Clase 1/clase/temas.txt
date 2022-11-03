@@ -1,0 +1,34 @@
+JAVA-POO:
+=========
+- páginas estáticas: 
+  - diagrama cliente-servidor: localizar archivo html y enviarlo al cliente
+  - menor costo, html/css, dan información, no interactuan con usuario
+  - páginas curriculum, información productos, etc
+
+- páginas dinámicas: son páginas generadas en el servidor y luego enviadas al cliente
+  - interacción con usuario, utiliza lenguajes de programación y base de datos, 
+  - páginas edición fotografía, home banking, edición excel
+  - ejemplo real Xampp -> ventas
+
+- java: 
+  - diagrama cliente-servidor: lenguaje para programar del lado del servidor
+  - fuertemente tipado: 
+	js let a=2
+	a="Pepe"
+	
+	java
+	Integer a = new Intenger(2);
+	String nombre=new String("Pepe")
+	a="Pedro" -> error
+		
+  - Multiplataforma JVM, POO, Garbage collector: C, C++ -> memory leaks
+  - POO: Programación orientada a objetos, dif Programación estructurada
+  
+- jdk: instalación
+- IDE: concepto, ejemplos: Entorno de Desarrollo Integrado
+- Eclipse: instalación de eclipse
+	- ejecucion eclipse
+	  - workspace: concepto, creación
+	  - create dyn web project
+	  - perspectivas: java, debug
+   
