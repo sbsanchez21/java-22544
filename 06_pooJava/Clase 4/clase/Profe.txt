@@ -1,0 +1,40 @@
+profesor
+marcador
+pizarra
+
+profesor:
+-nombre
+-apellido
+-dni
+-escribir()
+
+marcador:
+-color
+-escribirPizarra()
+
+pizarra:
+-tipo material
+-mostrarLoEscrito()
+
+profesor:
+-nombre Santos
+-apellido Sanchez
+-dni 2233344
+-escribir()
+
+
+marcador:
+-color azul
+-escribirPizarra()
+
+marcador:
+-color rojo
+-escribirPizarra()
+
+pizarra:
+-tipo material: melamina
+-mostrarLoEscrito()
+
+pizarra:
+-tipo material: madera
+
