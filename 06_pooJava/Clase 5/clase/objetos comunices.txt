@@ -1,0 +1,20 @@
+termo
+litros carga
+color
+material
+
+cargar liquido y mantener la temp
+
+mochila
+litros
+
+cargar cosas
+
+
+mochila1
+litros: 60lt
+cargarCosas
+
+mochila2
+litros: 15lt
+cargarCosas
