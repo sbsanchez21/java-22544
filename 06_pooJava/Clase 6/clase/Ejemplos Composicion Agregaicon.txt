@@ -1,0 +1,44 @@
+Ejemplos Composición Agregación:
+--------------------------------
+
+Cliente:
+--------
+id
+nombre
+apellido
+dni
+tel
+email
+dirección: calle, altura, barrio, piso, dpto, manzanas, codigoPostal, localidad, provincia, pais 
+-> sacar dirección a una clase
+Direccion
+cuenta: nroCta,cbu,cvu,alias,tipo,saldo 
+Cuenta
+
+Cuenta:
+-------
+id
+tipo:ctaCte, Caja Ahorro, sueldo
+nroCta
+cbu
+cvu
+alias
+saldo
+
+Direccion:
+----------
+id
+calle
+altura
+piso
+dpto
+codigoPostal
+localidad
+provincia
+pais
+
+Composición:
+Empresa -> Empleado
+
+Agregación:
+Empresa -> Cliente
